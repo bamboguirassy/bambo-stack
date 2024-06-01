@@ -1,0 +1,46 @@
+
+.brand {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  img {
+    width: 40px;
+    margin-right: 8px;
+  }
+  .app-name {
+    font-size: 30px;
+    font-weight: bold;
+  }
+}
+
+hr {
+  margin: 16px 0;
+  border-color: #e8e8e8;
+}
+
+.menu-item {
+  transition: background-color 0.3s;
+  &:hover {
+    background-color: #f0f0f0;
+  }
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    margin-right: 8px;
+    border-radius: 50%;
+    background-color: #e6f7ff;
+    color: #1890ff;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .active {
+    background-color: #f0f0f0;
+    .icon {
+      background-color: #e6f7ff;
+      color: #1890ff;
+    }
+  }
+}

@@ -1,0 +1,75 @@
+// PieceJointeList.module.scss
+.pieceJointeList {
+    padding: 5px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  
+    .ant-btn {
+      margin-bottom: 20px;
+      border-radius: 5px;
+      background-color: #1890ff;
+      color: #fff;
+      &:hover {
+        background-color: #40a9ff;
+      }
+    }
+  
+    .ant-list-item {
+      border-radius: 5px;
+      margin-bottom: 10px;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+  
+      .ant-list-item-meta-avatar {
+        font-size: 20px;
+      }
+  
+      .ant-list-item-meta-title {
+        font-size: 16px;
+        font-weight: bold;
+      }
+  
+      .ant-list-item-meta-description {
+        color: #8c8c8c;
+      }
+  
+      .ant-btn {
+        color: #ff4d4f;
+        &:hover {
+          color: #ff7875;
+        }
+      }
+    }
+  
+    .ant-modal {
+      .ant-modal-content {
+        border-radius: 10px;
+      }
+  
+      .ant-form-item {
+        margin-bottom: 15px;
+      }
+    }
+  
+    .uploadContainer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      border: 2px dashed #d9d9d9;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: border-color 0.3s;
+      text-align: center;
+  
+      &:hover {
+        border-color: #40a9ff;
+      }
+  
+      .uploadIcon {
+        font-size: 24px;
+        margin-right: 10px;
+        color: #1890ff;
+      }
+    }
+  }  

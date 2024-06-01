@@ -1,0 +1,26 @@
+.paginationInfoCard {
+    background-color: #f7f9fc;
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 16px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #595959;
+
+    .ant-typography {
+        margin-bottom: 8px;
+    }
+
+    .ant-badge-count {
+        background-color: #52c41a;
+        color: white;
+        box-shadow: 0 0 0 1px #d9d9d9 inset;
+    }
+}
+
+.paginationRow {
+    @media (max-width: 576px) {
+        text-align: left;
+    }
+}

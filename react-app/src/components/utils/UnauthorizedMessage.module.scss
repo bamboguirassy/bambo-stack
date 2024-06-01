@@ -1,0 +1,34 @@
+/* UnauthorizedMessage.module.scss */
+.unauthorized-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .icon {
+    font-size: 64px;
+    color: #ff4d4f;
+    margin-bottom: 20px;
+  }
+  
+  .message {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 16px;
+    color: #595959;
+  }
+  
+  .button {
+    margin-top: 20px;
+  }
+  

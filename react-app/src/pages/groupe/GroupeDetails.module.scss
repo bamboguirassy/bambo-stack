@@ -1,0 +1,17 @@
+.groupeDetailsCard {
+    background-color: #f7f9fc;
+    border: none;
+    border-radius: 8px;
+    padding: 24px;
+    margin: 16px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    color: #595959;
+
+    .ant-typography {
+        margin-bottom: 16px;
+    }
+
+    .permissionsGroup {
+        margin-bottom: 24px;
+    }
+}

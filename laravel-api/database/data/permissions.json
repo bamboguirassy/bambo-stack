@@ -1,0 +1,90 @@
+[
+    {
+        "nom": "Gestion des utilisateurs",
+        "code": "USER-MANAGEMENT",
+        "permissions": [
+            {
+                "nom": "Ajouter un utilisateur",
+                "code": "ADD-USER"
+            },
+            {
+                "nom": "Modifier un utilisateur",
+                "code": "EDIT-USER"
+            },
+            {
+                "nom": "Supprimer un utilisateur",
+                "code": "DELETE-USER"
+            },
+            {
+                "nom": "Consulter un utilisateur",
+                "code": "VIEW-USER"
+            },
+            {
+                "nom": "Consulter la liste des utilisateurs",
+                "code": "VIEW-USERS"
+            },
+            {
+                "nom": "Désactiver un utilisateur",
+                "code": "DISABLE-USER"
+            },
+            {
+                "nom": "Activer un utilisateur",
+                "code": "ENABLE-USER"
+            },
+            {
+                "nom": "Réinitialiser le mot de passe d'un utilisateur",
+                "code": "RESET-PASSWORD"
+            },
+            {
+                "nom": "Se connecter en tant qu'un utilisateur",
+                "code": "LOGIN-AS-USER"
+            },
+            {
+                "nom": "Changer les permissions d'un utilisateur",
+                "code": "CHANGE-USER-PERMISSIONS"
+            }
+        ]
+    },
+    {
+        "nom": "Gestion des groupes d'utilisateurs",
+        "code": "GROUP-MANAGEMENT",
+        "permissions": [
+            {
+                "nom": "Ajouter un groupe d'utilisateurs",
+                "code": "ADD-GROUP"
+            },
+            {
+                "nom": "Modifier un groupe d'utilisateurs",
+                "code": "EDIT-GROUP"
+            },
+            {
+                "nom": "Supprimer un groupe d'utilisateurs",
+                "code": "DELETE-GROUP"
+            },
+            {
+                "nom": "Consulter un groupe d'utilisateurs",
+                "code": "VIEW-GROUP"
+            },
+            {
+                "nom": "Consulter la liste des groupes d'utilisateurs",
+                "code": "VIEW-GROUPS"
+            },
+            {
+                "nom": "Ajouter un utilisateur à un groupe",
+                "code": "ADD-USER-TO-GROUP"
+            },
+            {
+                "nom": "Visualiser les utilisateurs d'un groupe",
+                "code": "VIEW-GROUP-USERS"
+            },
+            {
+                "nom": "Supprimer un utilisateur d'un groupe",
+                "code": "REMOVE-USER-FROM-GROUP"
+            },
+            {
+                "nom": "Activer/désactiver un groupe",
+                "code": "ENABLE-DISABLE-GROUP"
+            }
+        ]
+    }
+]
