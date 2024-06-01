@@ -25,9 +25,9 @@ function Footer() {
               new Date().getFullYear()
             }, réalisé avec
             {<HeartFilled />} par
-            <a href="https://terangagroup.net" rel="noopener noreferrer"
+            <a href="https://educrak.com" rel="noopener noreferrer"
              className="font-weight-bold" target="_blank">
-              Teranga Cloud Solutions
+              Moussa FOFANA
             </a>.
           </div>
         </Col>

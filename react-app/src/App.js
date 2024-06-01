@@ -68,24 +68,8 @@ function App() {
       theme={{
         // algorithm: theme.darkAlgorithm,
         token: {
-          colorPrimary: '#1d7c55',
+          colorPrimary: process.env.REACT_APP_PRIMARY_COLOR,
           borderRadius: 5,
-        },
-        components: {
-          Table: {
-            headerBg: '#1d7c55',
-            headerColor: '#fff',
-            borderColor: '#fadb14',
-            footerBg: '#ffffb8',
-            headerSortHoverBg: '#fadb14',
-            headerSortActiveBg: '#fadb14',
-            cellFontSize: 14
-          },
-          Card: {
-          },
-          Menu: {
-            iconSize: 15,
-          }
         }
 
       }}

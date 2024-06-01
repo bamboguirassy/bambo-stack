@@ -224,7 +224,7 @@ export default function LoginPage() {
             {" "}
             Copyright © {
               new Date().getFullYear()
-            }{" "} Prime by <a href="https://terangagroup.net">Teranga Cloud Solutions</a>{" "}
+            }{" "} Prime by <a href="https://educrak.com">Moussa FOFANA</a>{" "}
           </p>
         </Footer>
       </Layout>

@@ -16,13 +16,13 @@ function HomePage() {
 
   return (
     <Main>
-      <Card className="full-height">
+      <Card title="Page d'accueil - Dashboard" className="full-height" classNames={{ body: "px-0" }}>
         {check('VIEW-DASHBOARD') ?
           (
             <div className="layout-content">
               <Result
                 status="success"
-                title="Bienvenue sur la plateforme de gestion des utilisateurs"
+                title="Bienvenue sur la plateforme full Stack PLR (Pusher, Laravel, React) dénommé 'Bambo Stack' développé comme prototype pour toute mise en place de projet rapide."
                 subTitle="Vous pouvez naviguer dans le menu pour accéder aux différentes fonctionnalités."
               />
             </div>

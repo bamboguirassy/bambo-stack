@@ -252,7 +252,7 @@ export default function UserListPage() {
         <Main>
             {check('VIEW-USERS') ? <>
                 {/* {loading ? <LoadingPlaceholder /> : null} */}
-                <Card title="Liste des Utilisateurs">
+                <Card title="Liste des Utilisateurs" classNames={{ body: "px-0" }}>
                     <Spin spinning={loading}>
                         <InfiniteTable rowKey={'uid'} dataSource={users} paginationData={paginationData} loadMore={loadMore} loading={loadingMore}
                             columns={columns} title={

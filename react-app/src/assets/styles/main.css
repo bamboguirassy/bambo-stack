@@ -43,52 +43,6 @@ body {
   margin: 0;
   padding: 33px 20px;
 }
-.layout-dashboard .ant-layout-sider.sider-primary .brand img {
-  height: 30px;
-}
-.layout-dashboard .ant-layout-sider.sider-primary hr {
-  margin: 18px 0;
-  border: none;
-  height: 1px;
-  background-color: #f5f5f5;
-}
-.layout-dashboard .ant-layout-sider.sider-primary .brand {
-  font-weight: 600;
-  display: flex;
-  justify-content: center;
-}
-.layout-dashboard .ant-layout-sider.sider-primary .brand span {
-  vertical-align: middle;
-  margin-left: 3px;
-}
-.brand .app-name {
-  font-size: 20px;
-  font-weight: 800;
-  color: #141414;
-}
-
-.layout-dashboard .ant-layout-sider.sider-primary .ant-layout-sider-children {
-  width: auto;
-}
-
-.layout-dashboard .ant-layout-sider.sider-primary .ant-menu-inline {
-  border: none;
-}
-.layout-dashboard .ant-menu {
-  background: transparent;
-}
-
-.layout-dashboard
-  .ant-layout-sider.sider-primary
-  .ant-menu-inline
-  .ant-menu-item,
-.layout-dashboard
-  .ant-layout-sider.sider-primary
-  .ant-menu-inline
-  .ant-menu-submenu {
-  margin: 0;
-  overflow: visible;
-}
 
 .layout-dashboard .ant-layout-sider.sider-primary .ant-menu-item,
 .layout-dashboard .ant-layout-sider.sider-primary .ant-menu-submenu {
@@ -99,54 +53,6 @@ body {
 
 .layout-dashboard .ant-layout-sider.sider-primary .ant-menu-submenu-title {
   padding-left: 10px !important;
-}
-
-.layout-dashboard
-  .ant-layout-sider.sider-primary
-  .ant-menu-inline
-  .ant-menu-item:after,
-.layout-dashboard
-  .ant-layout-sider.sider-primary
-  .ant-menu-inline
-  .ant-menu-submenu:after {
-  display: none;
-}
-
-.layout-dashboard
-  .ant-layout-sider.sider-primary
-  .ant-menu-item.ant-menu-item-selected,
-.layout-dashboard
-  .ant-layout-sider.sider-primary
-  .ant-menu-item.ant-menu-item:active,
-.layout-dashboard
-  .ant-layout-sider.sider-primary
-  .ant-menu-item
-  .ant-menu-submenu-selected,
-.layout-dashboard
-  .ant-layout-sider.sider-primary
-  .ant-menu-item.ant-menu-submenu-title:active,
-.layout-dashboard
-  .ant-layout-sider.sider-primary
-  .ant-menu-item
-  .ant-menu-submenu:active,
-.layout-dashboard
-  .ant-layout-sider.sider-primary
-  .ant-menu-submenu.ant-menu-item-selected,
-.layout-dashboard
-  .ant-layout-sider.sider-primary
-  .ant-menu-submenu.ant-menu-item:active,
-.layout-dashboard
-  .ant-layout-sider.sider-primary
-  .ant-menu-submenu
-  .ant-menu-submenu-selected,
-.layout-dashboard
-  .ant-layout-sider.sider-primary
-  .ant-menu-submenu.ant-menu-submenu-title:active,
-.layout-dashboard
-  .ant-layout-sider.sider-primary
-  .ant-menu-submenu
-  .ant-menu-submenu:active {
-  background-color: transparent;
 }
 
 .layout-dashboard
@@ -175,125 +81,12 @@ body {
   white-space: nowrap;
 }
 
-.layout-dashboard
-  .ant-layout-sider.sider-primary.ant-layout-sider-primary
-  .ant-menu-item.ant-menu-item-selected
-  .active
-  .icon,
-.layout-dashboard
-  .ant-layout-sider.sider-primary.ant-layout-sider-primary
-  .ant-menu-item
-  .active
-  .icon {
-  background-color: #1D7C55;
-  box-shadow: 0 20px 27px rgb(0 0 0 / 5%) !important;
-}
-.layout-dashboard
-  .ant-layout-sider.sider-primary
-  .ant-menu-item.ant-menu-item-selected
-  .active
-  .icon,
-.layout-dashboard .ant-layout-sider.sider-primary .ant-menu-item .active .icon,
-.layout-dashboard
-  .ant-layout-sider.sider-primary
-  .ant-menu-submenu.ant-menu-item-selected
-  .active
-  .icon,
-.layout-dashboard
-  .ant-layout-sider.sider-primary
-  .ant-menu-submenu
-  .active
-  .icon {
-  background-color: #1D7C55;
-}
-
 .ant-menu-item {
   margin-left: 5px !important;
 }
 
-.layout-dashboard .ant-layout-sider.sider-primary .ant-menu-item .icon,
-.layout-dashboard .ant-layout-sider.sider-primary .ant-menu-submenu .icon {
-  display: inline-flex;
-  width: 32px;
-  height: 32px;
-  background-color: #fff;
-  box-shadow: 0 4px 6px rgb(0 0 0 / 12%);
-  border-radius: 6px;
-  justify-content: center;
-  align-items: center;
-  margin-right: 11px;
-  vertical-align: middle;
-}
-
-.layout-dashboard
-  .ant-layout-sider.sider-primary
-  .ant-menu-item.ant-menu-item-selected
-  .active
-  svg
-  path,
-.layout-dashboard
-  .ant-layout-sider.sider-primary
-  .ant-menu-item
-  .active
-  svg
-  path,
-.layout-dashboard
-  .ant-layout-sider.sider-primary
-  .ant-menu-submenu.ant-menu-item-selected
-  .active
-  svg
-  path,
-.layout-dashboard
-  .ant-layout-sider.sider-primary
-  .ant-menu-submenu
-  .active
-  svg
-  path {
-  fill: #fff;
-}
-.layout-dashboard .ant-layout-sider.sider-primary .ant-menu-item svg path,
-.layout-dashboard .ant-layout-sider.sider-primary .ant-menu-submenu svg path {
-  fill: #bfbfbf;
-}
-
-.layout-dashboard .ant-layout-sider.sider-primary .ant-menu-item a:hover,
-.layout-dashboard .ant-layout-sider.sider-primary .ant-menu-submenu a:hover {
-  color: #FBEF40;
-  background-color: #1D7C55;
-}
-
-.layout-dashboard
-  .ant-layout-sider.sider-primary
-  .ant-menu-inline
-  .ant-menu-item.menu-item-header {
-  padding: 10px 16px !important;
-  color: #8c8c8c;
-  font-weight: 700;
-  font-size: 13px;
-  text-transform: uppercase;
-  display: block;
-}
-
 .menu-item-header:hover {
   color: inherit;
-}
-
-.layout-dashboard .ant-layout-sider.sider-primary.ant-layout-sider-zero-width {
-  overflow-x: hidden;
-  width: 210px;
-  margin: 0;
-  padding: 33px 0;
-}
-
-.layout-dashboard.has-sidebar .ant-layout-sider.sider-primary .aside-footer {
-  display: block;
-}
-.layout-dashboard
-  .ant-layout-sider.sider-primary.ant-layout-sider-primary
-  .footer-box {
-  background-color: #1D7C55;
-  color: #fff;
-  box-shadow: none;
 }
 .layout-dashboard .ant-layout-sider.sider-primary .footer-box {
   background-color: #fff;
@@ -302,24 +95,6 @@ body {
   border-radius: 8px;
   box-shadow: 0 20px 27px rgb(0 0 0 / 5%);
   margin-bottom: 8px;
-}
-
-.layout-dashboard
-  .ant-layout-sider.sider-primary.ant-layout-sider-primary
-  .footer-box
-  .icon {
-  background-color: #fff;
-}
-.layout-dashboard .ant-layout-sider.sider-primary .footer-box .icon {
-  display: inline-flex;
-  width: 32px;
-  height: 32px;
-  box-shadow: 0 4px 6px rgb(0 0 0 / 12%);
-  border-radius: 6px;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 15px;
-  background-color: #1D7C55;
 }
 
 .layout-dashboard

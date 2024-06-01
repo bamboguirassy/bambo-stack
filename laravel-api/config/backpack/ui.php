@@ -73,10 +73,10 @@ return [
     // ------
 
     // Developer or company name. Shown in footer.
-    'developer_name' => 'Teranga Cloud Solutions',
+    'developer_name' => 'Moussa FOFANA',
 
     // Developer website. Link in footer. Type false if you want to hide it.
-    'developer_link' => 'https://terangagroup.net',
+    'developer_link' => 'https://educrak.com',
 
     // Show powered by Laravel Backpack in the footer? true/false
     'show_powered_by' => false,

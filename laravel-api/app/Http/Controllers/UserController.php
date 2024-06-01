@@ -59,7 +59,7 @@ class UserController extends Controller
     /**
      * Get the authenticated user
      * @creation: 12/05/2024
-     * @author bamboguirassy <moussa.fofana@terangacloud.com>
+     * @author bamboguirassy <didegassama@gmail.com>
      */
     public function login(Request $request)
     {
@@ -169,7 +169,7 @@ class UserController extends Controller
     /**
      * Get the authenticated user
      * @creation: 12/05/2024
-     * @author bamboguirassy <moussa.fofana@terangacloud.com>
+     * @author bamboguirassy <didegassama@gmail.com>
      */
     public function getCurrentUser(Request $request)
     {

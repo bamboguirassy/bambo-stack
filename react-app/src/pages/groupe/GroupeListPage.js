@@ -245,7 +245,7 @@ export default function GroupeListPage() {
                     <>
                         <GroupeNew visible={newModalVisible} onCreate={onCreateConfirm} onCancel={onCreateCancel} />
                         {selectedGroupe ? <GroupeEdit visible={updateModalVisible} uid={selectedGroupe.uid} onUpdate={onUpdateConfirm} onCancel={onUpdateCancel} /> : null}
-                        <Card title={`Liste des groupes`}>
+                        <Card title={`Liste des groupes`} classNames={{ body: "px-0" }}>
                             <Spin spinning={loading}>
                                 <InfiniteTable rowKey={'uid'} dataSource={groupes} loading={loading || isLoadingMore} columns={columns} loadMore={loadMore} paginationData={paginationData}
                                     title={
