@@ -9,7 +9,7 @@ import {
   Input,
   Switch,
 } from "antd";
-import logosenegal from "../assets/images/flag_senegal.png";
+import logosenegal from "../assets/images/logo.png";
 import UserService from "../services/UserService";
 import { catchError, storeToken } from "../services/DaoService";
 import Toast from "../helpers/Toast";

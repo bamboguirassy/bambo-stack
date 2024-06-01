@@ -1,6 +1,6 @@
 import { Menu, Button, Popconfirm, Card } from "antd";
 import { NavLink, useLocation } from "react-router-dom";
-import logo from "../../assets/images/flag_senegal.png";
+import logo from "../../assets/images/logo.png";
 import { BookOutlined, DashboardOutlined, LogoutOutlined, SettingOutlined } from "@ant-design/icons";
 import { catchError, removeToken } from "../../services/DaoService";
 import UserService from "../../services/UserService";

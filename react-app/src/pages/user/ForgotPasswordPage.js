@@ -1,6 +1,6 @@
 import React from "react";
 import {Layout,Row, Col,Typography,Form, Input, Button, Result} from "antd";
-import logosenegal from "../../assets/images/flag_senegal.png";
+import logosenegal from "../../assets/images/logo.png";
 import UserService from "../../services/UserService";
 import { catchError } from "../../services/DaoService";
 import { useNavigate } from "react-router-dom";
